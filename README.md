@@ -5,7 +5,7 @@
 ## Clone this repository:
 ```bash
 git clone git@github.com:dylan-devs/stats-agent.git
-cd usf-agentic-ai-project
+cd stats-agent
 ```
 
 ## Prerequisites 
