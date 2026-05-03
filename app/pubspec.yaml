@@ -1,0 +1,38 @@
+name: app
+description: "Front end for the stats agent"
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.9.0
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^1.0.8
+  flutter_ai_toolkit: ^1.0.0
+  http: ^1.6.0
+  logger: ^2.6.2
+  firebase_storage: ^13.1.0
+  firebase_core: ^4.5.0
+  provider: ^6.1.5+1
+  url_launcher: ^6.3.1
+  flutter_dotenv: ^6.0.0
+  shared_preferences: ^2.5.4
+  smooth_page_indicator: ^2.0.1
+  photo_view: ^0.15.0
+  flutter_markdown: ^0.7.7+1
+  flutter_markdown_plus: ^1.0.7
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^5.0.0
+
+flutter:
+  uses-material-design: true
+  assets:
+    - .env
